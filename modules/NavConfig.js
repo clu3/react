@@ -3,6 +3,12 @@ let configs = [
         'title' : 'School Nav',
         'links' : [
             {
+                'link' : '/',
+                'title' : "rediect",
+                'text' : 'redirect home',
+                'noroute' : 1
+            },
+            {
                 'link' : '/about',
                 'title' : "about school",
                 'text' : 'About'
@@ -25,6 +31,21 @@ let configs = [
                 'link' : '/my-form',
                 'text' : 'My Form'
             },
+            {
+                'link' : '/syllabus/111/redux-form',
+                'text' : 'DuxForm'
+            },
+            {
+                'link' : '/syllabus/111/redux-d2form',
+                'text' : 'redux: D2Form'
+            },
+            
+            {
+                'link' : '/form',
+                'text' : 'redux-form'
+            },
+            
+              
         ] 
     }
 ];

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Form from "react-jsonschema-form";
 //import RaisedButton from 'material-ui/RaisedButton';
+import { Link } from 'react-router'
  
 const schema = {
   title: "Todo",
@@ -37,6 +38,10 @@ class NewSyllabus extends Component
                 onChange={log("changed")}
                 onSubmit={log("submitted")}
             onError={log("errors")} />
+
+        <h1>
+        <Link to="/syllabus/123/redux-form">some redux Form for sylalbus id : 123</Link>
+        </h1>
         </div>
     )
   }

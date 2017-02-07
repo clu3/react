@@ -15,7 +15,13 @@ class NavSection extends Component {
          <ul className="nav-stacked category-tree" >
             {
                 this.props.section.links.map(function(link, index) {
-            return <li key={index}><Link to={link.link}>{link.text}</Link></li>
+                    return <li key={index}>
+                        { link.noroute ? 
+                            <a href={link.link}>{link.text}</a>
+                            :
+                            <Link to={link.link}>{link.text}</Link>
+                        }
+                    </li>
                 })
 
             }
