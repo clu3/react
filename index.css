@@ -1,0 +1,17 @@
+.active {
+  color: green;
+}
+
+.nav {
+    width:15%;
+    padding-left: 20px;
+
+    background: #eee;
+    float: left;
+}
+.main 
+{
+    width:80%;
+    float: left;
+    padding-left: 20px;
+}
