@@ -10,6 +10,8 @@ import MyForm from './modules/MyForm'
 import DuxForm from './modules/Form/DuxForm'
 import D2Form from './modules/Form/D2Form'
 import SubmitValidationForm from './modules/Form/SubmitValidationForm'
+import MatForm from './modules/Form/MatForm'
+
 
 import { Provider } from 'react-redux'
 
@@ -63,7 +65,8 @@ render((
       <Route path="/syllabus/:syllabusId/redux-d2form" component={D2Form}/>
       <Route path="/syllabus/:syllabusId/redux-form" component={DuxForm}/>
       <Route path="/form" component={SubmitValidationForm}/>
-
+      <Route path="/mui" component={MatForm}/>
+     
     </Route>
   </Router>
   </MuiThemeProvider>

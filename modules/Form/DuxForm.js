@@ -41,7 +41,7 @@ class DuxForm extends Component {
 
     return (
         <form onSubmit={handleSubmit(submit)}>
-      <h1>Edit syllabus #{this.props.params.syllabusId} #DuxForm </h1>
+        <h1>Edit syllabus #{this.props.params.syllabusId} #DuxForm </h1>
         <div>
         <Field name="username" component={TextField} hintText="Street"/>
         </div>

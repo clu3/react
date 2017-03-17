@@ -44,6 +44,17 @@ let configs = [
                 'link' : '/form',
                 'text' : 'redux-form'
             },
+            {
+                'link' : '/mui',
+                'text' : 'Material UI'
+            },
+            {
+                'link' : '/bs',
+                'text' : 'Bootstrap react'
+            }
+            
+
+            
             
               
         ] 
